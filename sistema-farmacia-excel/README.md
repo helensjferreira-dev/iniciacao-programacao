@@ -14,17 +14,20 @@ Este projeto foi desenvolvido como parte da disciplina de **Lógica de Programa�
 ## 📁 Estrutura do sistema
 
 ### 👤 Clientes
+
 - Cadastro com geração automática de código.
 - Validação de CPF e data de nascimento.
 - Verificação de preenchimento obrigatório dos campos.
 - Busca, atualização e exclusão de registros.
 
 ### 💊 Produtos
+
 - Cadastro com validação de campos obrigatórios (código, descrição, preço, fornecedor, quantidade).
 - Busca, atualização e exclusão de produtos.
 - Verificação de estoque.
 
 ### 🛒 Vendas
+
 - Geração automática de código de venda.
 - Integração com clientes e produtos.
 - Cálculo automático do valor total.
@@ -33,6 +36,7 @@ Este projeto foi desenvolvido como parte da disciplina de **Lógica de Programa�
 - Opção de adicionar múltiplos produtos na mesma venda.
 
 ### 🧭 Menu principal
+
 - Navegação entre os formulários.
 
 ---
@@ -67,7 +71,7 @@ Este projeto foi uma introdução prática à lógica de programação, manipula
 
 Este projeto está localizado em:
 
-`iniciacao-programacao/sistema-farmacia-excel`
+`iniciacao-programacao/sistema-farmacia`
 
 ---
 
