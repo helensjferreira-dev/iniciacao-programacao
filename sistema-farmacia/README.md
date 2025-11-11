@@ -67,7 +67,7 @@ Este projeto foi uma introdução prática à lógica de programação, manipula
 
 Este projeto está localizado em:
 
-`iniciacao-programacao/sistema-farmacia-excel`
+`iniciacao-programacao/sistema-farmacia/`
 
 ---
 
