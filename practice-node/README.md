@@ -27,6 +27,9 @@ Este projeto foi criado para fortalecer os fundamentos do desenvolvimento backen
 - Manipulação de arrays com métodos modernos do JavaScript
 - Organização de código e funções reutilizáveis
 - Evolução prática e aprendizado contínuo
+- Programação orientada a objetos (POO)
+- Programação assíncrona com Async/Await e Promises
+- Manipulação de objetos em JavaScript
 
 ---
 
@@ -42,16 +45,19 @@ Este projeto foi criado para fortalecer os fundamentos do desenvolvimento backen
 
 ## 📂 Estrutura do repositório
 
-| Arquivo / Desafio          | Principais conceitos                                           |
-| -------------------------- | -------------------------------------------------------------- |
-| `desafio01.js`             | Métodos de array (`filter`, `reduce`, `every`, `some`, `sort`) |
-| `desafio02.js`             | Validação de sensores e lógica de monitoramento                |
-| `opcao-menu.js`            | Sistemas de menu utilizando `switch` e loops                   |
-| `opcao-sem-switch.js`      | Estrutura dinâmica de menu usando objetos de ações             |
-| `sorteador-unidade.js`     | Validação de entradas com Regex                                |
-| `sorteio-2-letras-user.js` | Validação com loops e interação com usuário                    |
-| `loop-for.js`              | Estruturas de repetição e controle de fluxo                    |
-| `adivinha-letra.js`        | Lógica de funções e tratamento de condições                    |
+| Arquivo / Desafio                | Principais conceitos                                                                        |
+| -------------------------------- | ------------------------------------------------------------------------------------------- |
+| `desafio01.js`                   | Métodos de array (`filter`, `reduce`, `every`, `some`, `sort`)                              |
+| `desafio02.js`                   | Validação de sensores e lógica de monitoramento                                             |
+| `opcao-menu.js`                  | Sistemas de menu utilizando `switch` e loops                                                |
+| `opcao-sem-switch.js`            | Estrutura dinâmica de menu usando objetos de ações                                          |
+| `sorteador-unidade.js`           | Validação de entradas com Regex                                                             |
+| `sorteio-2-letras-user.js`       | Validação com loops e interação com usuário                                                 |
+| `loop-for.js`                    | Estruturas de repetição e controle de fluxo                                                 |
+| `adivinha-letra.js`              | Lógica de funções e tratamento de condições                                                 |
+| `pratica-objetos.js`             | Objetos JavaScript, destructuring, spread operator e manipulação de propriedades            |
+| `desafio-s6a3.js`                | Programação orientada a objetos (POO), herança, polimorfismo e encapsulamento por convenção |
+| `status-entregas-async-await.js` | Async/Await, Promises, tratamento de erros e monitoramento assíncrono                       |
 
 ---
 
@@ -107,6 +113,35 @@ Os exercícios simulam situações comuns encontradas em sistemas backend:
 - Lógica de controle de estoque
 - Processamento de dados
 - Pipelines de validação
+
+---
+
+### ✔ Programação orientada a objetos (POO)
+
+Exercícios utilizando conceitos fundamentais de orientação a objetos em JavaScript:
+
+- Classes e subclasses
+- Herança
+- Polimorfismo
+- Encapsulamento
+- Sobrescrita de métodos
+- Organização de regras de negócio
+
+Aplicados em cenários inspirados em sistemas empresariais e folha de pagamento.
+
+---
+
+### ✔ Programação assíncrona com Async/Await
+
+Exercícios simulando operações assíncronas comuns em aplicações backend:
+
+- Promises
+- Async/Await
+- Tratamento de erros com try/catch
+- Simulação de APIs e consultas externas
+- Monitoramento de entregas e rastreamento
+
+Com foco em controle de fluxo assíncrono e resolução de problemas reais.
 
 ---
 
@@ -178,6 +213,9 @@ This project was created to strengthen backend development fundamentals through 
 - Array manipulation using modern JavaScript methods
 - Code organization and reusable functions
 - Continuous learning and practical evolution
+- Object-Oriented Programming (OOP)
+- Asynchronous programming with Async/Await and Promises
+- JavaScript object manipulation
 
 ---
 
@@ -193,16 +231,19 @@ This project was created to strengthen backend development fundamentals through 
 
 ## 📂 Repository structure
 
-| File / Challenge           | Main Concepts                                               |
-| -------------------------- | ----------------------------------------------------------- |
-| `desafio01.js`             | Array methods (`filter`, `reduce`, `every`, `some`, `sort`) |
-| `desafio02.js`             | Sensor validation and monitoring logic                      |
-| `opcao-menu.js`            | Menu systems using `switch` and loops                       |
-| `opcao-sem-switch.js`      | Dynamic menu structure using action objects                 |
-| `sorteador-unidade.js`     | Input validation with Regex                                 |
-| `sorteio-2-letras-user.js` | Loop validation and user interaction                        |
-| `loop-for.js`              | Loop structures and flow control                            |
-| `adivinha-letra.js`        | Function logic and condition handling                       |
+| File / Challenge                 | Main Concepts                                                                                   |
+| -------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `desafio01.js`                   | Array methods (`filter`, `reduce`, `every`, `some`, `sort`)                                     |
+| `desafio02.js`                   | Sensor validation and monitoring logic                                                          |
+| `opcao-menu.js`                  | Menu systems using `switch` and loops                                                           |
+| `opcao-sem-switch.js`            | Dynamic menu structure using action objects                                                     |
+| `sorteador-unidade.js`           | Input validation with Regex                                                                     |
+| `sorteio-2-letras-user.js`       | Loop validation and user interaction                                                            |
+| `loop-for.js`                    | Loop structures and flow control                                                                |
+| `adivinha-letra.js`              | Function logic and condition handling                                                           |
+| `pratica-objetos.js`             | JavaScript objects, destructuring, spread operator, and property manipulation                   |
+| `desafio-s6a3.js`                | Object-Oriented Programming (OOP), inheritance, polymorphism, and object structure organization |
+| `status-entregas-async-await.js` | Async/Await, Promises, error handling, and asynchronous monitoring                              |
 
 ---
 
@@ -258,6 +299,35 @@ The exercises simulate situations commonly found in backend systems:
 - Inventory logic
 - Data processing
 - Validation pipelines
+
+---
+
+### ✔ Object-Oriented Programming (OOP)
+
+Exercises using core object-oriented programming concepts in JavaScript:
+
+- Classes and subclasses
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Method overriding
+- Business rule organization
+
+Applied to business-inspired scenarios such as payroll systems.
+
+---
+
+### ✔ Asynchronous programming with Async/Await
+
+Exercises simulating asynchronous operations commonly found in backend applications:
+
+- Promises
+- Async/Await
+- Error handling with try/catch
+- API and external query simulation
+- Delivery tracking and monitoring systems
+
+Focused on asynchronous flow control and real-world problem solving.
 
 ---
 

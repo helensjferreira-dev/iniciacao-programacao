@@ -4,7 +4,6 @@
 
 ## 🇧🇷 Português
 
-
 ## 📚 Backend Learning Lab
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -28,6 +27,9 @@ Este espaço reúne exercícios, desafios e pequenos projetos desenvolvidos dura
 - Validação e tratamento de entradas
 - Estruturas condicionais e de repetição
 - Manipulação de arrays em JavaScript
+- Programação orientada a objetos (POO)
+- Programação assíncrona com Async/Await e Promises
+- Manipulação de objetos em JavaScript
 - Organização de código e versionamento
 - Resolução de problemas inspirados em cenários reais
 
@@ -48,12 +50,12 @@ Este espaço reúne exercícios, desafios e pequenos projetos desenvolvidos dura
 
 ## 📂 Estrutura do repositório
 
-| Pasta | Descrição |
-|---|---|
-| `jogo-da-velha` | Projeto em Scratch focado em lógica de fluxo, regras e controle de estado |
-| `sistema-farmacia` | Sistema em VBA com cadastro de clientes, produtos, vendas e controle de estoque |
-| `practice-node` | Exercícios práticos em JavaScript e Node.js com foco em lógica, validações e manipulação de arrays |
-| `logica-python-iniciante` | Exercícios iniciais em Python voltados para fundamentos de programação |
+| Pasta                     | Descrição                                                                                          |
+| ------------------------- | -------------------------------------------------------------------------------------------------- |
+| `jogo-da-velha`           | Projeto em Scratch focado em lógica de fluxo, regras e controle de estado                          |
+| `sistema-farmacia`        | Sistema em VBA com cadastro de clientes, produtos, vendas e controle de estoque                    |
+| `practice-node`           | Exercícios práticos em JavaScript e Node.js com foco em lógica, validações e manipulação de arrays |
+| `logica-python-iniciante` | Exercícios em Python voltados para lógica, fundamentos de programação e resolução de problemas     |
 
 ---
 
@@ -68,6 +70,7 @@ Exercícios utilizando expressões regulares para validação de entradas do usu
 - Tratamento de entradas inválidas
 
 #### Exemplo:
+
 ```javascript
 let isValidUserInput = /[1-9]/.test(convUserInput);
 ```
@@ -85,6 +88,7 @@ Exercícios utilizando métodos modernos do JavaScript:
 Aplicados em cenários inspirados em sistemas reais, como APIs educacionais e monitoramento industrial.
 
 #### Exemplos de desafios:
+
 - Filtragem de notas inválidas
 - Cálculo de média
 - Verificação de aprovação
@@ -102,6 +106,44 @@ Implementações utilizando:
 - funções reutilizáveis
 
 Com foco em construção de menus interativos e controle de estados.
+
+### ✔ Programação orientada a objetos (POO)
+
+Exercícios utilizando conceitos fundamentais de orientação a objetos em JavaScript:
+
+- Classes e subclasses
+- Herança
+- Polimorfismo
+- Sobrescrita de métodos
+- Organização de regras de negócio
+- Estruturação de sistemas empresariais
+
+Aplicados em cenários inspirados em sistemas de folha de pagamento e gestão empresarial.
+
+---
+
+### ✔ Programação assíncrona com Async/Await
+
+Exercícios simulando operações assíncronas comuns em aplicações backend:
+
+- Promises
+- Async/Await
+- Tratamento de erros com try/catch
+- Simulação de APIs e consultas externas
+- Monitoramento de entregas e rastreamento
+
+#### Exemplo:
+
+```javascript
+async function buscarEntregas(codigo) {
+  try {
+    const resultado = await consultarEntregaPorCodigo(codigo);
+    console.log(resultado);
+  } catch (erro) {
+    console.error(erro);
+  }
+}
+```
 
 ### ✔ Resolução de problemas aplicada ao backend
 
@@ -136,6 +178,7 @@ Profissional em transição de carreira para desenvolvimento backend, com experi
 Atualmente focada em desenvolvimento de software com Python, APIs REST, SQL e aplicações web.
 
 ## 🔗 Links
+
 GitHub: https://github.com/helensjferreira-dev  
 LinkedIn: https://linkedin.com/in/helensjferreira-dev
 
@@ -188,12 +231,12 @@ This space gathers exercises, challenges, and small projects developed during my
 
 ## 📂 Repository structure
 
-| Folder | Description |
-|---|---|
-| `jogo-da-velha` | Scratch project focused on logic flow, rules, and state control |
-| `sistema-farmacia` | VBA system with customer, product, sales, and inventory management |
-| `practice-node` | Practical JavaScript and Node.js exercises focused on logic, validations, and array manipulation |
-| `logica-python-iniciante` | Beginner Python exercises focused on programming fundamentals |
+| Folder                    | Description                                                                                      |
+| ------------------------- | ------------------------------------------------------------------------------------------------ |
+| `jogo-da-velha`           | Scratch project focused on logic flow, rules, and state control                                  |
+| `sistema-farmacia`        | VBA system with customer, product, sales, and inventory management                               |
+| `practice-node`           | Practical JavaScript and Node.js exercises focused on logic, validations, and array manipulation |
+| `logica-python-iniciante` | Python exercises focused on logic, programming fundamentals, and problem solving                 |
 
 ---
 
@@ -208,6 +251,7 @@ Exercises using regular expressions for user input validation:
 - Invalid input handling
 
 #### Example:
+
 ```javascript
 let isValidUserInput = /[1-9]/.test(convUserInput);
 ```
@@ -225,6 +269,7 @@ Exercises using modern JavaScript methods such as:
 Applied to scenarios inspired by real systems, such as educational APIs and industrial monitoring systems.
 
 #### Challenge examples:
+
 - Invalid grade filtering
 - Average calculation
 - Approval verification
@@ -244,6 +289,46 @@ Implementations using:
 - reusable functions
 
 Focused on building interactive menus and state management.
+
+---
+
+### ✔ Object-Oriented Programming (OOP)
+
+Exercises using core object-oriented programming concepts in JavaScript:
+
+- Classes and subclasses
+- Inheritance
+- Polymorphism
+- Method overriding
+- Business rule organization
+- Enterprise system structuring
+
+Applied to business-inspired scenarios such as payroll and company management systems.
+
+---
+
+### ✔ Asynchronous programming with Async/Await
+
+Exercises simulating asynchronous operations commonly found in backend applications:
+
+- Promises
+- Async/Await
+- Error handling with try/catch
+- API and external query simulation
+- Delivery tracking and monitoring systems
+
+#### Example:
+
+```javascript
+async function buscarEntregas(codigo) {
+  try {
+    const resultado = await consultarEntregaPorCodigo(codigo);
+    console.log(resultado);
+  } catch (erro) {
+    console.error(erro);
+  }
+}
+```
 
 ---
 
